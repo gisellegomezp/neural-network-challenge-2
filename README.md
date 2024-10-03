@@ -1,13 +1,14 @@
 # neural-network-challenge-2
 This is my submission for the Module 19 Challenge. This contains starter code provided by the Bootcamp. Directions as follows:
 
-Background
+## Background
 You are tasked with creating a neural network that HR can use to predict whether employees are likely to leave the company. Additionally, HR believes that some employees may be better suited to other departments, so you are also asked to predict the department that best fits each employee. These two columns should be predicted using a branched neural network.
 
-Instructions
+## Instructions
+
 Open the starter file in Google Colab / VS Code and complete the following steps, which are divided into three parts:
 
-Part 1: Preprocessing
+### Part 1: Preprocessing
 Import the data and view the first five rows.
 
 Determine the number of unique values in each column.
@@ -30,7 +31,7 @@ Create a OneHotEncoder for the department column, then fit the encoder to the tr
 
 Create a OneHotEncoder for the attrition column, then fit the encoder to the training data and use it to transform both the training and testing data.
 
-Part 2: Create, Compile, and Train the Model
+### Part 2: Create, Compile, and Train the Model
 Find the number of columns in the X training data.
 
 Create the input layer. Do NOT use a sequential model, as there will be two branched output layers.
@@ -53,7 +54,7 @@ Evaluate the model with the testing data.
 
 Print the accuracy for both department and attrition.
 
-Part 3: Summary
+### Part 3: Summary
 Briefly answer the following questions in the space provided:
 
 Is accuracy the best metric to use on this data? Why or why not?
